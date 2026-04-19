@@ -1,0 +1,5 @@
+com/shopizer/images/StoredImage.class
+com/shopizer/images/ImageStore.class
+com/shopizer/images/LocalImageStore.class
+com/shopizer/images/ImageMetadata.class
+com/shopizer/images/StoredImageResource.class

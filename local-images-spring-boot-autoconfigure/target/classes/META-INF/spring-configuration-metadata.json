@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "name": "shopizer.images.local",
+      "type": "com.shopizer.images.autoconfigure.LocalImagesProperties",
+      "sourceType": "com.shopizer.images.autoconfigure.LocalImagesProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "shopizer.images.local.create-directories",
+      "type": "java.lang.Boolean",
+      "description": "Whether to create the storage root during application startup.",
+      "sourceType": "com.shopizer.images.autoconfigure.LocalImagesProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "shopizer.images.local.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether local image storage is enabled.",
+      "sourceType": "com.shopizer.images.autoconfigure.LocalImagesProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "shopizer.images.local.storage-path",
+      "type": "java.nio.file.Path",
+      "description": "Root directory where image files are stored.",
+      "sourceType": "com.shopizer.images.autoconfigure.LocalImagesProperties",
+      "defaultValue": "data\/images"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
